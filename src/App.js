@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation, Router } from "react-router-dom";
 import Particles from "react-tsparticles";
 import Home from "./containers/home";
 import About from "./containers/about";
@@ -38,6 +38,7 @@ function App() {
   const renderParticleJsInHomePage = location.pathname === "/";
 
   return (
+    <Router basename="/react-port">
     <div className="App">
       {/* particles js */}
       {renderParticleJsInHomePage && (
@@ -59,6 +60,7 @@ function App() {
       </div>
       {/* <Footer /> */}
     </div>
+    </Router>
   );
 }
 
