@@ -14,7 +14,8 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
+    <link rel="icon" href="%PUBLIC_URL%/Logo.png" type="image/png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <!--
@@ -26,20 +27,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Vineeth - Portfolio</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- <script>
+      // Redirect to index.html on 404 errors
+      var redirect = function () {
+        var pathname = window.location.pathname
+        if (pathname.indexOf('.') === -1) {
+          window.location.href = '/react-port/'
+        }
+      }
+      redirect()
+    </script> -->
   </body>
 </html>
