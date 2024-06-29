@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation, Router } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Particles from "react-tsparticles";
 import Home from "./containers/home";
 import About from "./containers/about";
@@ -38,13 +38,14 @@ function App() {
   const renderParticleJsInHomePage = location.pathname === "/";
 
   return (
-    <Router basename="/react-port">
     <div className="App">
       {/* particles js */}
       {renderParticleJsInHomePage && (
         <Particles id="tsParticles" options={particlesConfig} init={particlesInit} loaded={particlesLoaded} />
       )}
 
+      {/* <Router basename="/react-port"> */}
+      {/* <BrowserRouter basename="/react-port"> */}
       <Navbar />
       <div className="App__main-page-content">
         <Routes>
@@ -58,9 +59,10 @@ function App() {
           {/* <Route path="/profile" element={<ProfileLinks />} /> */}
         </Routes>
       </div>
+      {/* </BrowserRouter> */}
+      {/* </Router > */}
       {/* <Footer /> */}
     </div>
-    </Router>
   );
 }
 
