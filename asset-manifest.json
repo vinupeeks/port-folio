@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-port/static/css/main.f08d4a92.css",
-    "main.js": "/react-port/static/js/main.4fa25be0.js",
-    "static/media/image3.jpg": "/react-port/static/media/image3.9b66aa7c0651acf1cfb7.jpg",
-    "static/media/image5.jpg": "/react-port/static/media/image5.0efefb69f17d89ffb9cf.jpg",
-    "static/media/image2.png": "/react-port/static/media/image2.5c325e3f197174cb55ee.png",
-    "static/media/image4.jpg": "/react-port/static/media/image4.1b336ad8668953c0a113.jpg",
-    "static/media/image6.png": "/react-port/static/media/image6.47cc83ea8c203010ccfb.png",
-    "static/media/image7.jpg": "/react-port/static/media/image7.997e1bbdbb234ce15b20.jpg",
-    "static/media/Logo.png": "/react-port/static/media/Logo.f427ea7838d4d217891d.png",
-    "index.html": "/react-port/index.html",
-    "main.f08d4a92.css.map": "/react-port/static/css/main.f08d4a92.css.map",
-    "main.4fa25be0.js.map": "/react-port/static/js/main.4fa25be0.js.map"
+    "main.css": "/port-folio/static/css/main.f08d4a92.css",
+    "main.js": "/port-folio/static/js/main.0315c951.js",
+    "static/media/image3.jpg": "/port-folio/static/media/image3.9b66aa7c0651acf1cfb7.jpg",
+    "static/media/image5.jpg": "/port-folio/static/media/image5.0efefb69f17d89ffb9cf.jpg",
+    "static/media/image2.png": "/port-folio/static/media/image2.5c325e3f197174cb55ee.png",
+    "static/media/image4.jpg": "/port-folio/static/media/image4.1b336ad8668953c0a113.jpg",
+    "static/media/image6.png": "/port-folio/static/media/image6.47cc83ea8c203010ccfb.png",
+    "static/media/image7.jpg": "/port-folio/static/media/image7.997e1bbdbb234ce15b20.jpg",
+    "static/media/Logo.png": "/port-folio/static/media/Logo.f427ea7838d4d217891d.png",
+    "index.html": "/port-folio/index.html",
+    "main.f08d4a92.css.map": "/port-folio/static/css/main.f08d4a92.css.map",
+    "main.0315c951.js.map": "/port-folio/static/js/main.0315c951.js.map"
   },
   "entrypoints": [
     "static/css/main.f08d4a92.css",
-    "static/js/main.4fa25be0.js"
+    "static/js/main.0315c951.js"
   ]
 }
