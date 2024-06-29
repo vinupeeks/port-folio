@@ -7,7 +7,7 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Router basename="/react-port">
+    <Router basename="/port-folio">
       <App />
     </Router>
   </React.StrictMode>
