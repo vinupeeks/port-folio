@@ -5,29 +5,17 @@ export const data = {
         subTitle: "Soften Technologies Cochin.",
         description:
           "Web development, Databases, Full stack developement",
-          Date: '2023 - 2024',
+          Date: 'August 2023 - January 2024',
       },
       {
         title: "Biller",
         subTitle: "SOUQI Hyper Marcket, Cherpulassery, Palakkad.",
         description:
           "precision and promptness, ensuring seamless financial transactions",
-          Date: '2024 - Present',
+          Date: 'March 2024 - Present',
       },
-      // {
-      //   title: "Project Manager",
-      //   subTitle: "Bangalore, INDIA",
-      //   description:
-      //     "Creative Direction Project Management, Team Leading",
-      // },
     ],
     education: [
-      // {
-      //   title: "Secondary",
-      //   subTitle: "ABC School",
-      //   description:
-      //     "10th Grade",
-      // },
       {
         title: "Govt Vellinezhi ",
         subTitle: " Higher Secondary of higher education.",
